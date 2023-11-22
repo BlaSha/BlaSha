@@ -1,0 +1,92 @@
+body{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+    height: 100vh;
+    background-color: red;
+
+
+}
+#header{
+    display: flex;
+    width: 120%;
+    height: 40%;
+    background-color: bisque;
+}
+
+#header1{
+    display: flex;
+    width: 120%;
+    height: 40%;
+    background-color: black;
+}
+#nav{
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(170, 0, 255);
+}
+
+#content{
+    display: flex;
+    flex-direction: row-reverse;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    height: 200%;
+    background-color: rgb(226, 43, 159);
+
+}
+
+#right{
+
+  display: flex; 
+  
+  width: 20%;
+  height: 100%;
+  background-color: chartreuse;
+}
+
+#left{
+
+display: flex;
+flex-wrap: wrap;
+width: 80%;
+height: 100%;
+background-color: rgb(51, 255, 0);
+
+}
+
+#up{
+
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: aqua;
+
+}
+
+#titre{
+    text-decoration: underline;
+    
+}
+
+.card{
+display: flex;
+flex-wrap: wrap;
+width: 20%;
+height: 20%;
+background-color: rgb(3, 14, 24);
+margin: 5px;
+
+}
